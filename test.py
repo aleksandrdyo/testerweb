@@ -1,2 +1,5 @@
-def testing_passing():
-    assert(1, 2, 3) == (1, 2, 3)
+
+
+rand = Rando(0, 1)
+
+print(Ra)
