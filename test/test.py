@@ -24,3 +24,4 @@ def test_update_conference_session_description(self, num_of_symbols):
             except:
                 var = traceback.format_exc()
                 assert check_error_stacktrace(var, 400), 'The error code is 400'
+
