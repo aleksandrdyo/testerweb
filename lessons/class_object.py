@@ -27,6 +27,11 @@ class Giraffes(Mammals):
     def eat_leaves_from_trees(self):
         print("ест листья с деревьев")
 
+    def find_food(self):
+        self.move()
+        print("Я нашел еду!")
+        self.eat_food()
+
 reginald=Giraffes() # создать объект класса Giraffes и присвоить его переменной reginald.
 reginald.move()
 reginald.eat_leaves_from_trees()
